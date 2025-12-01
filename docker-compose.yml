@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  recon2defend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: recon2defend
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: >
+      bash -lc "
+      python starter/app.py scan example.com --ports 80 443 &&
+      python starter/generate.py generate sample_outputs/scan_example.com.json &&
+      tail -f /dev/null
+      "
