@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# Output files
+sample_outputs/*.html
+sample_outputs/*.rules
+sample_outputs/*.json
+
+# Docker
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
