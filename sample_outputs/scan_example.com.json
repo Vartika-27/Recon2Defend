@@ -1,0 +1,17 @@
+{
+  "target": "example.com",
+  "timestamp": 1700000000,
+  "ips": [
+    "93.184.216.34"
+  ],
+  "ports": {
+    "93.184.216.34": {
+      "80": {
+        "banner": "HTTP/1.1 200 OK\nServer: ECS (nyb/1D2A)\n"
+      },
+      "443": {
+        "banner": ""
+      }
+    }
+  }
+}
