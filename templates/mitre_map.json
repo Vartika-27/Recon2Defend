@@ -1,0 +1,4 @@
+{
+    "dns_enum": ["T1595"],
+    "banner_grab": ["T1046"]
+}
